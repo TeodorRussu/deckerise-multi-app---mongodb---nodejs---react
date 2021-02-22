@@ -1,0 +1,36 @@
+{
+  "eventVersion": "2.1",
+  "eventSource": "aws:s3",
+  "awsRegion": "eu-west-1",
+  "eventTime": "2021-02-19T14:51:36.668Z",
+  "eventName": "ObjectCreated:CompleteMultipartUpload",
+  "userIdentity": {
+    "principalId": "AWS:AROAIU72XS5K3DSD6T3JA:i-08cb96ce28b2f4e09"
+  },
+  "requestParameters": {
+    "sourceIPAddress": "52.31.219.5"
+  },
+  "responseElements": {
+    "x-amz-request-id": "030A9709E3CF0DC6",
+    "x-amz-id-2": "XxpCj+1AioikZaxStOFTCaZWpWiY691xtkB0fncWfnvaTFDOwgPClYDc74pP+t+8MCM8xm4gZj6OFcCHPzgVcYLengL+841x"
+  },
+  "s3": {
+    "s3SchemaVersion": "1.0",
+    "configurationId": "tf-s3-queue-20210219122000724900000001",
+    "bucket": {
+      "name": "aws-ops-bonial-biz-production-sftp-storage",
+      "ownerIdentity": {
+        "principalId": "A15V4ZMJ0AI8BW"
+      },
+      "arn": "arn:aws:s3:::aws-ops-bonial-biz-production-sftp-storage"
+    },
+    "object": {
+      "key": "uploads/REWE_testing_teambar/Screenshot+copy+18.csv",
+      "size": 85900,
+      "eTag": "69b2c267346ddf2b7557485b024641e1-1",
+      "sequencer": "00602FD079573D05B1"
+    }
+  }
+}
+
+      
